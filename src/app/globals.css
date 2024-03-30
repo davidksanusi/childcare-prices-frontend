@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noBorder span input {
+  border: none !important;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.noScrollBar {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.noScrollBar::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+.tabs.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #0D121C !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+/* Bottom ink color */
+.tabs.ant-tabs .ant-tabs-ink-bar {
+  background-color: #E5E8EB !important;
+  height: 3px !important;
+}
+
+.tabs.ant-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+  color: #4A699C !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}

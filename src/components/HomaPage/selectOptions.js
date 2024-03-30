@@ -1,0 +1,136 @@
+export const letterOptions = [
+  { value: "a", label: "A" },
+  { value: "b", label: "B" },
+  { value: "c", label: "C" },
+  { value: "d", label: "D" },
+  { value: "e", label: "E" },
+  { value: "f", label: "F" },
+  { value: "g", label: "G" },
+  { value: "h", label: "H" },
+  { value: "i", label: "I" },
+  { value: "j", label: "J" },
+  { value: "k", label: "K" },
+  { value: "l", label: "L" },
+  { value: "m", label: "M" },
+  { value: "n", label: "N" },
+  { value: "o", label: "O" },
+  { value: "p", label: "P" },
+  { value: "q", label: "Q" },
+  { value: "r", label: "R" },
+  { value: "s", label: "S" },
+  { value: "t", label: "T" },
+  { value: "u", label: "U" },
+  { value: "v", label: "V" },
+  { value: "w", label: "W" },
+  { value: "x", label: "X" },
+  { value: "y", label: "Y" },
+  { value: "z", label: "Z" },
+];
+
+export const numOfLettersOptions = [
+  { value: 1, label: 1 },
+  { value: 2, label: 2 },
+  { value: 3, label: 3 },
+  { value: 4, label: 4 },
+  { value: 5, label: 5 },
+  { value: 6, label: 6 },
+  { value: 7, label: 7 },
+  { value: 8, label: 8 },
+  { value: 9, label: 9 },
+  { value: 10, label: 10 },
+  { value: 11, label: 11 },
+  { value: 12, label: 12 },
+  { value: 13, label: 13 },
+  { value: 14, label: 14 },
+  { value: 15, label: 15 },
+  { value: 16, label: 16 },
+];
+
+export const genderOptions = [
+  { value: "Female", label: "Female" },
+  { value: "Male", label: "Male" },
+];
+
+export const birthYearsOptions = [
+  { value: 1995, label: 1995 },
+  { value: 1996, label: 1996 },
+  { value: 1997, label: 1997 },
+  { value: 1998, label: 1998 },
+  { value: 1999, label: 1999 },
+  { value: 2000, label: 2000 },
+  { value: 2001, label: 2001 },
+  { value: 2002, label: 2002 },
+  { value: 2003, label: 2003 },
+  { value: 2004, label: 2004 },
+  { value: 2005, label: 2005 },
+  { value: 2006, label: 2006 },
+  { value: 2007, label: 2007 },
+  { value: 2008, label: 2008 },
+  { value: 2009, label: 2009 },
+  { value: 2010, label: 2010 },
+  { value: 2011, label: 2011 },
+  { value: 2012, label: 2012 },
+  { value: 2013, label: 2013 },
+  { value: 2014, label: 2014 },
+  { value: 2015, label: 2015 },
+  { value: 2016, label: 2016 },
+  { value: 2017, label: 2017 },
+  { value: 2018, label: 2018 },
+  { value: 2019, label: 2019 },
+  { value: 2020, label: 2020 },
+  { value: 2022, label: 2022 },
+  { value: 2023, label: 2023 },
+  { value: 2024, label: 2024 },
+];
+
+export const sortByOptions = [
+  { value: "popular", label: "Popular" },
+  { value: "historic", label: "Historic" },
+];
+
+export const babies = [
+  {
+    number: 1,
+    name: "Jennifer",
+    newborns: "1,200,2000",
+    male: "37%",
+    female: "63%",
+  },
+  { number: 1, name: "Sophia", newborns: "22,325", male: "37%", female: "63%" },
+  { number: 1, name: "Emma", newborns: "20,964", male: "37%", female: "63%" },
+  {
+    number: 1,
+    name: "Isabella",
+    newborns: "19,126",
+    male: "37%",
+    female: "63%",
+  },
+  { number: 1, name: "Olivia", newborns: "17,328", male: "37%", female: "63%" },
+  {
+    number: 1,
+    name: "Jennifer",
+    newborns: "1,200,2000",
+    male: "37%",
+    female: "63%",
+  },
+  { number: 1, name: "Sophia", newborns: "22,325", male: "37%", female: "63%" },
+  { number: 1, name: "Emma", newborns: "20,964", male: "37%", female: "63%" },
+  {
+    number: 1,
+    name: "Isabella",
+    newborns: "19,126",
+    male: "37%",
+    female: "63%",
+  },
+  { number: 1, name: "Olivia", newborns: "17,328", male: "37%", female: "63%" },
+];
+
+
+export const filtersData = {
+  "continents": ["Asia", "Africa", "Europe", "North America", "South America", "Oceania"],
+  "languages": ["English", "Spanish", "French", "Chinese", "Hindi", "Arabic"],
+  "currencies": ["USD", "EUR", "GBP", "JPY", "CNY", "INR"],
+  "borders": ["CHN", "USA", "IND", "CAN", "MEX", "RUS"],
+  "sort_categories": ["gdp_per_capita", "population", "area"],
+  "sort_orders": ["asc", "desc"]
+}
